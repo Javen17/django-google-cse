@@ -4,5 +4,5 @@ from .views import search
 app_name = 'google_cse'
 
 urlpatterns = [
-    url(r'^$', search, name='search'),
+    re_path(r'^$', search, name='search'),
 ]
