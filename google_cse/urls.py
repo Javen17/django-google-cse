@@ -1,4 +1,4 @@
-from django.urls import patterns, url
+from django.urls import  url
 from .views import search
 
 app_name = 'google_cse'
