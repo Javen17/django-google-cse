@@ -1,4 +1,4 @@
-from django.urls import  url
+from django.urls import re_path
 from .views import search
 
 app_name = 'google_cse'
